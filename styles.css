@@ -93,12 +93,27 @@ header li {
 .body-2 {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: #F9FAF8;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 .body-2 h1 {
     display: flex;
     justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.card p {
+    margin: 3px;
+    text-align: center;
 }
 
 .container img {
@@ -106,14 +121,9 @@ header li {
     border-radius: 12px;
 }
 
-
-
-
-
-
-
-
 /* TERZA PARTE */
+
+
 
 /* QUARTA PARTE */
 
