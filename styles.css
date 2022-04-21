@@ -20,7 +20,7 @@ header {
     justify-content: center;
     margin-bottom: 50px;
     color: #F9FAF8;
-    gap: 290px;
+    gap: 340px;
 }
 
 header ul {
@@ -36,12 +36,12 @@ header h3 {
 
 header a {
     text-decoration: none;
-    font-size: 18px;
     color: #E5E7EB;
 }
 
 header li {
     list-style: none;
+    padding-top: 15px;
 }
 
 .container {
@@ -50,11 +50,18 @@ header li {
     gap: 60px;
 }
 
+.container a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .prima-foto {
     height: 240px;
     width: 450px;
     justify-content: center;
     align-items: center;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
 }
 
 .gruppoSX {
@@ -94,21 +101,19 @@ header li {
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
-    justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 125px;
 }
 
 .body-2 h1 {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .card {
     width: 150px;
     display: flex;
     flex-direction: column;
-    gap: 0px;
 }
 
 .card p {
@@ -116,12 +121,38 @@ header li {
     text-align: center;
 }
 
-.container img {
+.body-2 .container img {
     border: 3px solid #3882F6;
     border-radius: 12px;
 }
 
 /* TERZA PARTE */
+
+.body-3 {
+    background-color: #E5E7EB;
+}
+
+.body-3 .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px;
+}
+
+.quote {
+    margin: 0;
+    width: 780px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.firma {
+    margin-top: 0;
+    margin-left: 624px;
+    font-weight: bold;
+}
 
 
 
