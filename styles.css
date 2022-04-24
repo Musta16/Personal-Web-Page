@@ -12,7 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+    padding-top: 10px;
 }
  
 header {
@@ -150,12 +151,72 @@ header li {
 
 .firma {
     margin-top: 0;
-    margin-left: 624px;
+    margin-left: 560px;
     font-weight: bold;
 }
 
-
-
 /* QUARTA PARTE */
 
+.body-4 {
+    background-color: #F9FAF8;
+    padding: 100px 200px;
+}
+
+.body-4 .container2 {
+    border-radius: 6px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 0 100px;
+}
+
+.text-sx {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.text-sx .head {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.text-sx .sub-text {
+    margin-top: 0;
+    color: #E5E7EB;
+}
+
+.button-rx {
+    padding: 0 10px;
+}
+
+.button-rx a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.button-rx button {
+    padding: 3px 20px;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+}
+
 /* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 30px;
+    color: #E5E7EB;
+}
